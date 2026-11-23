@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4B2E20;
+    color: #FFFDF9;
+    padding: 15px 8%;
+}
+
+.myweblogo {
+    display: flex;
+    align-items: center;
+}
+
+.myweblogo img{
+    width: 45px;
+    height: 45px;
+}
+
+.myweblogo h2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #FFFDF9;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:  #D8BFA3;
+}
