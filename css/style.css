@@ -102,22 +102,6 @@ nav a:hover {
     height: auto;
 }
 
-@media (max-width: 600px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-content {
-        max-width: 100%;
-    }
-
-    .hero-image {
-        width: 100%;
-        margin-top: 5%;
-    }
-}
-
 .aboutus {
     text-align: center;
     background-color: #FFFDF9;
@@ -183,4 +167,34 @@ nav a:hover {
     font-family: Arial, sans-serif;
     color: #2D2621;
     line-height: 1.5;
+}
+
+footer {
+    background-color: #4B2E20;
+    color: #FFFDF9;
+    padding: 25px 5%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
