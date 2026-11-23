@@ -140,3 +140,47 @@ nav a:hover {
     line-height: 1.8;
 }
 
+.features {
+    background-color: #F7F0E5;
+    padding: 75px 8%;
+    text-align: center;
+}
+
+.features h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #4B2E20;
+    margin-bottom: 15px;
+}
+
+.features-intro {
+    font-family: Arial, sans-serif;
+    color: #2D2621;
+    margin-bottom: 30px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.features-card {
+    background-color: #FFFDF9;
+    padding: 30px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.features-card h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #7A4E32;
+    margin-bottom: 15px;
+}
+
+.features-card p {
+    font-family: Arial, sans-serif;
+    color: #2D2621;
+    line-height: 1.5;
+}
