@@ -74,9 +74,10 @@ nav a:hover {
 
 .hero-content p {
     font-family: Arial, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     color: #2D2621;
     margin-bottom: 30px;
+    line-height: 1.8;
 }
 
 .hero-btn {
@@ -115,5 +116,27 @@ nav a:hover {
         width: 100%;
         margin-top: 5%;
     }
+}
+
+.aboutus {
+    text-align: center;
+    background-color: #FFFDF9;
+    padding: 70px 8%;
+}
+
+.aboutus h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #4B2E20;
+    margin-bottom: 20px;
+}
+
+.aboutus p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #2D2621;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
 }
 
