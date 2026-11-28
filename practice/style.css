@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.submenu {
+    display: none;
+    padding: 10px 20px;
+}
+
+.submenu.active {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-category button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" comtent="width=device-width, initial-scale=1.0">
+    <title>Cozy Cafe Menu</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="menu-category">
+                <button onclick="toggleMenu('meals')">Meals</button>
+                <div class="submenu" id="meals">
+                    <div>
+                        <h3>Fried Chicken</h3>
+                    </div>
+                    <div>
+                        <h3>Rice</h3>
+                    </div>
+                    <div>
+                        <h3>Beef Steak</h3>
+                    </div>
+                </div>
+
+                <button onclick="toggleMenu('beverage')">Beverage</button>
+                <div class="submenu" id="beverage">
+                    <div>
+                        <h3>Black Coffee</h3>
+                    </div>
+                    <div>
+                        <h3>Matcha</h3>
+                    </div>
+                    <div>
+                        <h3>Milk</h3>
+                    </div>
+                </div>
+                
+                <button onclick="toggleMenu('snacks')">Snacks</button>
+                <div class="submenu" id="snacks">
+                    <div>
+                        <h3>Fries</h3>
+                    </div>
+                    <div>
+                        <h3>Onion Rings</h3>
+                    </div>
+                    <div>
+                        <h3>Sweet Spaghetti</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
