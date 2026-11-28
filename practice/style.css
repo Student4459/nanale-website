@@ -14,8 +14,7 @@ body {
 }
 
 .submenu.active {
-    display: flex;
-    flex-direction: column;
+    display: block;
     gap: 10px;
 }
 
@@ -26,3 +25,4 @@ body {
     text-align: left;
     cursor: pointer;
 }
+
