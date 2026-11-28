@@ -27,10 +27,12 @@ function displayMenu(menuItems) {
         menuItems[category].forEach(item => {
             const itemDiv = document.createElement("div");
 
+            itemDiv.classList.add("menu-item")
+
             itemDiv.innerHTML = `
-                <h3>${item.name}</h3>
-                <p>${item.details}</p>
-                <p>${item.price}</p>
+                <h3 class="item-name">${item.name}</h3>
+                <p class="item-details">${item.details}</p>
+                <p class="item-price">${item.price}</p>
             `;
 
             container.appendChild(itemDiv);
