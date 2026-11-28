@@ -6,7 +6,6 @@
     <title>Cozy Cafe</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="javascript/script.js">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,14 +36,21 @@
             </div>
         </section>
         <section class="main-menu">
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown Menu</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+            <div class="menu-category">
+                <button onclick="toggleMenu('meals')">Meals</button>
+                <div class="submenu" id="meals">
+                    <div>
+                        <h3>Fried Chicken</h3>
+                    </div>
+                    <div>
+                        <h3>Rice</h3>
+                    </div>
+                    <div>
+                        <h3>Sweet Spaghetti</h3>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <script src="javascript/script.js"></script>
 </body>
