@@ -30,6 +30,7 @@ function displayMenu(menuItems) {
             itemDiv.classList.add("menu-item")
 
             itemDiv.innerHTML = `
+                <img src="${item.image}" alt="${item.name}">
                 <h3 class="item-name">${item.name}</h3>
                 <p class="item-details">${item.details}</p>
                 <p class="item-price">₱${item.price.toFixed(2)}</p>

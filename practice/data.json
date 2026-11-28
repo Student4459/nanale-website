@@ -5,19 +5,19 @@
             "name": "Beef Caldereta", 
             "details": "Simmered to tenderness in a spicy tomato sauce. Chockful of potatoes, bell peppers, and green olives.", 
             "price": 50, 
-            "image":"spicy-beef-caldereta-2-1152x1536.jpg"
+            "image":"images/spicy-beef-caldereta-2-1152x1536.jpg"
         },{
             "id": 2, 
             "name": "Bistek Tagalog", 
             "details": "Made of thinly sliced sirloin braised in a mixture of citrus, soy sauce, onions, and garlic.", 
             "price": 60, 
-            "image":"bistek-1-1152x1536.jpg"
+            "image":"images/bistek-1-1152x1536.jpg"
         },{
             "id": 3, 
             "name": "Rice", 
             "details": "The classical rice we all know and love.", 
             "price": 15, 
-            "image":"how-to-rice.jpg"
+            "image":"images/how-to-rice.jpg"
         }
     ],
     "beverages": [
@@ -26,19 +26,19 @@
             "name": "Dalgona Coffee", 
             "details": "This whipped drink is easy to make with only four ingredients and is a fun and delicious way to get your caffeine fix.", 
             "price": 30, 
-            "image":"dalgona-coffee-10-1200-1152x1536.jpg"
+            "image":"images/dalgona-coffee-10-1200-1152x1536.jpg"
         },{
             "id": 5, 
             "name": "Calamansi Juice", 
             "details": "Made of freshly squeezed calamondin juice and simple syrup.", 
             "price": 20, 
-            "image":"calamansi-juice-1152x1536.jpg"
+            "image":"images/calamansi-juice-1152x1536.jpg"
         },{
             "id": 6, 
             "name": "Mango Shake", 
             "details": "Blended fruit drink made with mangoes and evaporated milk.", 
             "price": 30, 
-            "image":"mango-shake-3-1024x1536.jpg"
+            "image":"images/mango-shake-3-1024x1536.jpg"
         }
     ],
     "snacks": [
@@ -47,19 +47,19 @@
             "name": "Brazo de Mercedes", 
             "details": "A classic Filipino dessert featuring a pillowy meringue filled with rich, creamy yema custard.", 
             "price": 25, 
-            "image":"brazo-de-mercedes-cake-roll-1024x1536.jpg"
+            "image":"images/brazo-de-mercedes-cake-roll-1024x1536.jpg"
         },{
             "id": 8, 
             "name": "Mango Jelly", 
             "details": " Made with juicy mangoes, bouncy gulaman, mini sago, and sweetened cream, it's the ultimate chilled treat for warm days or family gatherings.", 
             "price": 30, 
-            "image":"creamy-mango-sago-jelly-1152x1536.jpg"
+            "image":"images/creamy-mango-sago-jelly-1152x1536.jpg"
         },{
             "id": 9, 
             "name": "Buko Sago Jelly Salad", 
             "details": "The perfect treat for potlucks, special occasions, or a hot day.", 
             "price": 20, 
-            "image":"buko-sago-jelly-salad-3-1152x1536.jpg"
+            "image":"images/buko-sago-jelly-salad-3-1152x1536.jpg"
         }
     ]
 }
