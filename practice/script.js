@@ -32,7 +32,7 @@ function displayMenu(menuItems) {
             itemDiv.innerHTML = `
                 <h3 class="item-name">${item.name}</h3>
                 <p class="item-details">${item.details}</p>
-                <p class="item-price">${item.price}</p>
+                <p class="item-price">₱${item.price.toFixed(2)}</p>
             `;
 
             container.appendChild(itemDiv);
