@@ -57,9 +57,26 @@ body {
 }
 
 .menu-item {
+    display: flex;
+    flex-direction: row;
     background-color: #F7F0E5;
-    padding: 20px;
+    padding: 15px;
+    gap: 15px;
     border-radius: 10px;
+    min-height: 180px;
+}
+
+.menu-item img {
+    width: 150px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .item-name {
@@ -77,6 +94,11 @@ body {
 .item-price {
     font-weight: bold;
     color: #8B5E3C;
-    margin-top: 8px;
-    
+    margin-top: auto;
+}
+
+@media (max-width: 600px)  {
+    .submenu.active {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
